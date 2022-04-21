@@ -4,25 +4,25 @@ import random, time
 #Question 1
 ###############
 
-# while True:
+while True:
 
-#   nouns = ['rice', 'emeka', 'john']
-#   verbs = ['is', 'goes', 'eats']
-#   adverbs = ['widely', 'quickly', 'slowly']
+  nouns = ['rice', 'emeka', 'john']
+  verbs = ['is', 'goes', 'eats']
+  adverbs = ['widely', 'quickly', 'slowly']
 
-#   inputt = input("would you like to listen to a unique story (y/n): ")
+  inputt = input("would you like to listen to a unique story (y/n): ")
   
-#   if inputt == 'y':
-#     time.sleep(2)
-#     print()
-#     print(f"{random.choice(nouns)} {random.choice(verbs)} {random.choice(adverbs)} known")
-#     print()
+  if inputt == 'y':
+    time.sleep(2)
+    print()
+    print(f"{random.choice(nouns)} {random.choice(verbs)} {random.choice(adverbs)} known")
+    print()
     
-#   elif inputt == 'n':
-#     break
+  elif inputt == 'n':
+    break
     
-#   else:
-#     continue
+  else:
+    continue
 
 #############
 #Question 2
@@ -76,7 +76,7 @@ while True:
     print("Player Wins Game\nGame Ends!")
     break
 
-  if len(player) == 0 and computer_point > player_point:
+  if len(computer) == 0 and computer_point > player_point:
     print("Computer Wins Game\nGame Ends!")
     break
     
